@@ -1,0 +1,12 @@
+{
+  "id": "trespasser-csb",
+  "title": "Trespasser · Character & Haven Records (CSB)",
+  "description": "Fan-made Trespasser v2.1.3 templates, theme and website JSON importer for Custom System Builder 6.1.2. Test release; in-Foundry validation pending.",
+  "version": "0.1.0",
+  "authors": [{"name":"Th3Unforg1ven","url":"https://github.com/Th3Unforg1ven"}],
+  "compatibility": {"minimum":"14","maximum":"14"},
+  "relationships": {"systems":[{"id":"custom-system-builder","type":"system","compatibility":{"minimum":"6.1.2","maximum":"6.1.2"}}]},
+  "esmodules": ["src/module.mjs"],
+  "styles": ["styles/trespasser.css"],
+  "url": "https://github.com/Th3Unforg1ven/trespassercs"
+}

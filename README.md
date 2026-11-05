@@ -34,6 +34,12 @@ O salvamento de refúgios é automático e separado dos personagens, com cache p
 
 Bônus de perícia, espaços de construção, limites e despesas são calculados a partir dos valores registrados. Avanço de nível, efeitos de construções, manutenção, alterações de riqueza e consequências dos eventos são resolvidos na mesa. As taxas dos contratados podem ser ajustadas. A ficha usa a tabela de avanço 0–9 e as doze perícias listadas no livro e na folha oficial; não inventa entradas para as menções divergentes a nível 10 e quatorze perícias na prosa. Para artesão, cozinheiro e arauto, usa as taxas de 100 cp do livro, com ajuste manual disponível para mesas que adotam os 50 cp impressos na folha.
 
+## Pacote para Foundry VTT
+
+[Baixar o pacote 0.1.0](https://github.com/Th3Unforg1ven/trespassercs/releases/tag/foundry-v0.1.0) · [Instruções de instalação](foundry/README.md)
+
+A adaptação para **Foundry 14 / Custom System Builder 6.1.2** está em [`foundry/`](foundry/README.md). Inclui templates PT/EN de personagens e refúgios, tema, fórmulas e importação do JSON do site. Gere o ZIP com `node scripts/build-foundry.mjs`; a saída fica em `output/foundry/trespasser-csb-0.1.0.zip`. É uma versão de teste: a validação em uma mesa Foundry 14.370 ainda está pendente. O pacote não muda o site nem sincroniza dados entre Foundry e Supabase.
+
 ## Executar localmente
 
 Com Node.js instalado, abra um terminal nesta pasta:
